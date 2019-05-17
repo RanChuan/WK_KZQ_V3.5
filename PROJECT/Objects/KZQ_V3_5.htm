@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\KZQ_V3_5.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\KZQ_V3_5.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Fri Apr 19 17:03:10 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Thu May 16 09:38:19 2019
 <BR><P>
 <H3>Maximum Stack Usage =        600 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -550,7 +550,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyDevice_On
 </UL>
 
-<P><STRONG><a name="[70]"></a>Config_Init</STRONG> (Thumb, 266 bytes, Stack size 8 bytes, config.o(i.Config_Init))
+<P><STRONG><a name="[70]"></a>Config_Init</STRONG> (Thumb, 264 bytes, Stack size 8 bytes, config.o(i.Config_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Config_Init &rArr; Load_Config &rArr; STMFLASH_Read
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
@@ -650,7 +650,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Cfg_Model
 </UL>
 
-<P><STRONG><a name="[3d]"></a>Get_cmd_NEW_MODE</STRONG> (Thumb, 218 bytes, Stack size 24 bytes, cmd1.o(i.Get_cmd_NEW_MODE))
+<P><STRONG><a name="[3d]"></a>Get_cmd_NEW_MODE</STRONG> (Thumb, 210 bytes, Stack size 24 bytes, cmd1.o(i.Get_cmd_NEW_MODE))
 <BR><BR>[Stack]<UL><LI>Max Depth = 600<LI>Call Chain = Get_cmd_NEW_MODE &rArr; cmd_0x05 &rArr; AS32_TX_none &rArr; USART1_tx_bytes
 </UL>
 <BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cmd_0x09
@@ -758,7 +758,7 @@ Global Symbols
 <P><STRONG><a name="[6]"></a>MemManage_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.MemManage_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[60]"></a>MyDevice_On</STRONG> (Thumb, 226 bytes, Stack size 16 bytes, cmd1.o(i.MyDevice_On))
+<P><STRONG><a name="[60]"></a>MyDevice_On</STRONG> (Thumb, 240 bytes, Stack size 16 bytes, cmd1.o(i.MyDevice_On))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = MyDevice_On &rArr; yiti_set &rArr; RS485_Receive_Data
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms

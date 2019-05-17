@@ -56,7 +56,7 @@ void Get_cmd_NEW_MODE (u8 *buff1)
 	
 								//进行地址校验
 	temp=(buff1[2]<<8)|buff1[3];
-	if (temp==MY_ADDR||((buff1[4]>=0x06)&&buff1[4]<=0x08))
+	if ((temp==MY_ADDR)||(temp==0))
 	{
 		MY_OFFTIME=0;
 		switch (buff1[4])
@@ -624,6 +624,14 @@ void MyDevice_On (u8 state,u8 updown)
 		yiti_power(state);
 		delay_ms(100);
 		yiti_set(updown);
+		if (state==1)
+		{
+			Cmd_cs_on();
+		}
+		else
+		{
+			Cmd_cs_off();
+		}
 	}
 	DATA_MAP->outputNew=DATA_MAP->outputOld;//执行完之后同步状态信息
 }

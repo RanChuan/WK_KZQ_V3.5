@@ -652,7 +652,7 @@ I (..\HARDWARE\CONTR\control.h)(0x5CB924ED)
 I (..\SYSTEM\config.h)(0x5CB93952)
 I (..\HARDWARE\STMFLASH\stmflash.h)(0x5B29AEBE)
 I (..\SOFTWARE\AS62\drv_as62.h)(0x5B1637B0)
-F (..\SYSTEM\config.c)(0x5CB98ECD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\HARDWARE\CONTR -I..\HARDWARE\REMOTE -I..\HARDWARE\STMFLASH -I..\HARDWARE\UART_485 -I..\HARDWARE\WDG -I..\SOFTWARE\AS62 -I..\SOFTWARE\CMD -I..\SOFTWARE\CRC -I..\STM32LIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\SYSTEM-I F:\´¨~\GitHub\WK_KZQ_V3.5\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+F (..\SYSTEM\config.c)(0x5CDCBF07)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\HARDWARE\CONTR -I..\HARDWARE\REMOTE -I..\HARDWARE\STMFLASH -I..\HARDWARE\UART_485 -I..\HARDWARE\WDG -I..\SOFTWARE\AS62 -I..\SOFTWARE\CMD -I..\SOFTWARE\CRC -I..\STM32LIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\SYSTEM-I F:\´¨~\GitHub\WK_KZQ_V3.5\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
 I (..\SYSTEM\config.h)(0x5CB93952)
 I (..\CORE\stm32f10x.h)(0x5A5C7560)
 I (..\CORE\core_cm3.h)(0x5A5C7560)
@@ -895,7 +895,7 @@ I (..\HARDWARE\STMFLASH\stmflash.h)(0x5B29AEBE)
 I (..\SOFTWARE\AS62\drv_as62.h)(0x5B1637B0)
 I (..\HARDWARE\UART_485\uart_485.h)(0x5BBEF66C)
 I (..\HARDWARE\REMOTE\receive.h)(0x5BA2FD20)
-F (..\SOFTWARE\CMD\cmd1.c)(0x5CB964CE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\HARDWARE\CONTR -I..\HARDWARE\REMOTE -I..\HARDWARE\STMFLASH -I..\HARDWARE\UART_485 -I..\HARDWARE\WDG -I..\SOFTWARE\AS62 -I..\SOFTWARE\CMD -I..\SOFTWARE\CRC -I..\STM32LIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\SYSTEM-I F:\´¨~\GitHub\WK_KZQ_V3.5\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\cmd1.o --omf_browse .\objects\cmd1.crf --depend .\objects\cmd1.d)
+F (..\SOFTWARE\CMD\cmd1.c)(0x5CDCBE77)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\HARDWARE\CONTR -I..\HARDWARE\REMOTE -I..\HARDWARE\STMFLASH -I..\HARDWARE\UART_485 -I..\HARDWARE\WDG -I..\SOFTWARE\AS62 -I..\SOFTWARE\CMD -I..\SOFTWARE\CRC -I..\STM32LIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\SYSTEM-I F:\´¨~\GitHub\WK_KZQ_V3.5\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\cmd1.o --omf_browse .\objects\cmd1.crf --depend .\objects\cmd1.d)
 I (..\HARDWARE\UART_485\uart_485.h)(0x5BBEF66C)
 I (..\SYSTEM\sys\sys.h)(0x5A5D9804)
 I (..\CORE\stm32f10x.h)(0x5A5C7560)
@@ -950,4 +950,4 @@ I (..\STM32LIB\inc\stm32f10x_spi.h)(0x5A5C7560)
 I (..\STM32LIB\inc\stm32f10x_tim.h)(0x5A5C7560)
 I (..\STM32LIB\inc\stm32f10x_usart.h)(0x5A5C7560)
 I (..\STM32LIB\inc\misc.h)(0x5A5C7560)
-F (..\ReadMe.txt)(0x5CB97AA3)()
+F (..\ReadMe.txt)(0x5CDCBF2C)()

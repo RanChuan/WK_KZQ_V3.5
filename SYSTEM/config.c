@@ -71,7 +71,7 @@ void Config_Init(void)
 									//如果控制器类型值在可选值之外，初始化为空调
 	if (MY_STYLE>10||MY_STYLE<2)
 	{
-		MY_STYLE=MYSTYLE_YT;
+		MY_STYLE=MYSTYLE_KT;
 	}
 	
 	memcpy(DATA_MAP->extType,type_name[MY_STYLE-2],4);
